@@ -1,0 +1,209 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+   
+}
+/* navigation bar style */
+#navbar {
+    display:flex ;
+    align-items: center;
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+}
+
+/* logo and img in navbar*/
+#logo{
+   position: relative;
+    margin: 0px 112px 1px 35px;
+    height: 58px;
+
+
+
+
+}
+#logo img {
+    height: 100px ;
+    position: relative;
+    right: 472%;
+    
+   
+   
+    
+}
+/* list styling */
+#navbar ul {
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.4rem;
+    align-items: center;
+
+}
+#navbar ul li a {
+    text-decoration: none;
+    padding: 3px 25px;
+    border-radius: 4px;
+    color: rgb(5, 5, 5);
+}
+#navbar ul li a:hover{
+    color: rgb(255, 254, 254);
+    background-color: rgb(8, 8, 8);
+    border-radius: 20px;
+}
+/* home section*/
+#home{
+    display: flex;
+    flex-direction:column;
+    padding: 2px 200px;
+    height: 940px;
+    justify-content: center;
+    align-items: center;
+    background: url(img/logo/nathan-dumlao-Y3AqmbmtLQI-unsplash.jpg) 
+    no-repeat center  center/cover;
+}
+#home .primaryhead {
+    font-size: 2.4rem;
+    font-family: 'Courier New', Courier, monospace;
+    border: 3px solid white;
+    background-color: white;
+    padding: 2px;
+    border-radius: 10px;
+  
+} 
+.center{
+    text-align: center;
+}
+#home h1{
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 3s  infinite alternate-reverse ;
+}
+@keyframes text{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 20ch;
+    }
+}
+#home p {
+    color: black;
+    border: 2px solid white;
+    background-color: white;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn {
+   
+  border: 2px solid white;
+  padding: 2px;
+  border-radius:10px ;
+
+}
+.btn a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+/* services */
+#services{
+   
+    margin: 34px;
+    display: flex;
+}
+#services .box {
+border: 2px solid black;
+padding: 34px;
+margin: 4px 6px;
+border-radius: 25px;
+background-color: #d3c483;
+}
+#services .box img{
+height: 206px;
+display: block;
+margin: auto;
+}
+#services p{
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#about p {
+    color: white;
+}
+#about h2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#about img{
+    position: relative;
+    left: 44%;
+    border: 1px solid white;
+    border-radius: 115px;
+}
+#about p{
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+}
+
+/* contact*/
+#contact{
+ color: white;  
+ font-size: 1.1rem;
+ font-family: 'Courier New', Courier, monospace;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding:0.5rem;
+    border-radius: 9px;
+}
+#contact-box form{
+    width: 18%;
+}
+
+#contact-box label{
+    padding: 0%;
+}
+
+footer{
+    color: white;
+    padding: 20px 20px;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*utility classes */
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+    color: white;
+}
+.center{
+    text-align: center;
+}
+.h-secondary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+
+
+
+
